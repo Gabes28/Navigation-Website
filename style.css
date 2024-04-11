@@ -82,7 +82,7 @@ body {
 
 .fas {
     float: right;
-    margin-left: 10px
+    margin-left: 10px;
 }
 
 .dropdown__menu-1{ 
@@ -159,6 +159,7 @@ body {
     background-color: var(--color-black);
 }
 
+
 .DAZSMABackground {
 height: calc(100vh - 80px);
 background-image: url(./DAZSMABackground.jpg);
@@ -193,4 +194,40 @@ background-repeat: no-repeat;
 .menu__bar ul li:hover .facility ul li {
     width: 150px;
     padding: 10px;
+}
+
+.facility-1 {
+    display: none;
+}
+
+.facility ul li:hover .facility-1 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: var(--color-black);
+}
+
+.facility-2 {
+    display: none;
+}
+
+.facility ul li:hover .facility-2 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: var(--color-black);
+}
+
+.facility-3 {
+    display: none;
+}
+
+.facility ul li:hover .facility-3 {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: var(--color-black);
 }
