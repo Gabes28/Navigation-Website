@@ -36,12 +36,12 @@ body {
 }
 
 .logo {
-    color: var(--cyan);
+    color: var(--color-primary);
     font-size: 30px;
 }
 
 .logo span {
-    color: var(--color-orange)
+    color: var(--cyan)
 }
 
 .menu__bar ul {
@@ -168,15 +168,6 @@ body {
 }
 
 
-.DAZSMABackground {
-height: calc(100vh - 80px);
-background-image: url(./DAZSMABackground.jpg);
-background-position: center;
-background-size: cover;
-background-repeat: no-repeat;
-
-}
-
 .facility {
     display: none;
 }
@@ -233,4 +224,21 @@ background-repeat: no-repeat;
     top: 0;
     left: 150px;
     background-color: var(--color-black);
+}
+
+.DAZSMABackground {
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(rgba(3, 4, 17, 0.603),rgba(10, 18, 19, 0.808)), url(images/DAZSMABackground.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.fa-house {
+    cursor: pointer;
+    font-size: 35px;
+    color: skyblue;
+}
+
+.DAZSMA{
+    width: 60px;
 }
