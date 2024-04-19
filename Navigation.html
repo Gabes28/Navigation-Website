@@ -8,8 +8,11 @@
     </head>
     <body>
         <div class="menu__bar">
+
+            <img src="images/DAZSMA.png" class="DAZSMA">
             <h1 class="logo">DAZSMA <span>OSJ</span></h1>
             <ul>
+                <i class="fa-solid fa-house"></i>
                 <li><a href="#">Grade and Section <i class="fas fa-caret-down"></i> </a>
 
                     <div class="dropdown__menu">
@@ -130,6 +133,7 @@
 
                         </ul>
                     </div>
+
                 </li>
                 <li><a href="#">Help</a></li>
 
@@ -137,7 +141,15 @@
         </div>
 
         <section class="DAZSMABackground">
+
+            <select id="locationSelect">
+                <option value="" selected disabled>Select a location...</option>
+                <!-- Add options dynamically using JavaScript -->
+            </select>
+            <script src="script.js"></script>
+
             &nbsp;
         </section>
+
     </body>
 </html>
