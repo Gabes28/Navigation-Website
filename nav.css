@@ -1,0 +1,80 @@
+body {
+    background-image: url('images/temp/bg-3.jpg'); /* Adjust the path to your background image */
+    background-size: 100% 100%; /* Cover the entire background */
+    background-repeat: no-repeat; /* Prevent background image from repeating */
+    background-position: center center; /* Center the background image */
+    background-attachment: fixed; /* Fixed background in viewport */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+}
+
+/* Style the selection menu */
+#locationSelect {
+    padding: 5px; /* Add padding for better appearance */
+    border: 1px solid #1a1a2e; /* Add border for clarity */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+/* Include Font Awesome for the magnifying glass icon */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* Style the magnifying glass icon */
+.fa-search {
+    color: #1a1a2e; /* Dark blue color */
+}
+
+/* Include Font Awesome for icons */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+/* Style the house icon */
+.fa-home {
+    color: #1a1a2e; /* Dark blue color */
+    font-size: 24px; /* Adjust icon size as needed */
+}
+
+/* Style the home button container */
+#homeButton {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 10px; /* Add space on the right side of the icon */
+}
+
+/* Style the home icon */
+.fa-home {
+    color: #1a1a2e; /* Dark blue color */
+    font-size: 24px; /* Adjust icon size as needed */
+    margin-right: 10px; /* Add some space between icon and text */
+}
+
+/* Style the home button container */
+#homeButton,
+#aboutButton {
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin-right: 10px; /* Add space on the right side of the icon */
+}
+
+/* Style the home and about icons */
+.fa-home,
+.fa-info-circle {
+    color: #1a1a2e; /* Dark blue color */
+    font-size: 24px; /* Adjust icon size as needed */
+    margin-right: 10px; /* Add some space between icon and text */
+}
+
+/* Style the legend items */
+.legend-item {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 10px;
+}
+.legend-item img {
+    margin-right: 5px;
+    height: 45px; /* Adjust image height as needed */
+}
+.legend-item p {
+    margin: 0;
+    color: #fff; /* White text color */
+}
