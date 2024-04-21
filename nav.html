@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Campus Navigation</title>
+    <link rel="stylesheet" href="nav.css"> <!-- Your custom styles -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"> <!-- Font Awesome library -->
+</head>
+<body>
+    <header style="background-color: rgba(0, 123, 255, 0.7); padding: 10px; display: flex; align-items: center; justify-content: space-between; color: #1a1a2e;">
+        <div style="display: flex; align-items: center;">
+            <img id="logoImage" src="images/temp/logo.png" alt="Logo" title="Refresher" style="height: 50px; width: auto; cursor:pointer">
+            <h1 style="margin-left: 10px;">
+                <span style="color: blue;">Don Antonio de Zuzuarregui Sr. Memorial Academy</span>
+                <span style="color: cyan;">Campus Navigation Application</span>
+            </h1>
+        </div>
+        <div id="homeButton" title="Home">
+            <i class="fas fa-home"></i> <!-- Home icon -->
+            <span>Home</span> <!-- Text "Home" -->
+        </div>
+        <div id="aboutButton" title="About">
+            <i class="fas fa-info-circle"></i> <!-- About icon -->
+            <span>About</span> <!-- Text "About" -->
+        </div>      
+    </header>
+    <!-- For semi-transparent header, logo, colored text -->
+    <div style="display: flex; align-items: center;">
+        <span style="margin-right: 10px; margin-left: 10px;"> <!-- Added margin-left -->
+            <i class="fas fa-search"></i> <!-- Magnifying glass icon -->
+        </span>
+        <select id="locationSelect" style="width: 200px;"> <!-- Resizable selection menu -->
+            <option value="" selected disabled>Select a location...</option>
+            <!-- Add options dynamically using JavaScript -->
+        </select>
+    </div>
+    <script src="nav.js"></script> <!-- Your JavaScript code -->
+</body>
+</html>
