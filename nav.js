@@ -307,7 +307,7 @@ const homeIcon = document.getElementById("homeButton");
 // Add click event listener to the home icon
 homeIcon.addEventListener("click", function() {
     // Redirect to the home page (assuming 'home.html' is your home page)
-    window.location.href = "home.html";
+    window.location.href = "Home.html";
 });
 
 // Get the info icon element
@@ -316,5 +316,5 @@ const infoIcon = document.getElementById("aboutButton");
 // Add click event listener to the info icon
 infoIcon.addEventListener("click", function() {
     // Redirect to the about page (assuming 'about.html' is your about page)
-    window.location.href = "about.html";
+    window.location.href = "About.html";
 });
