@@ -1,7 +1,7 @@
 const locations = {
     Offices: ["Cashier", "Director", "Guidance", "Information", "Principal", "Registrar"],
     Grade7: ["St. Lorenzo Ruiz", "St. Dominic", "St. Martin", "St. Blaise", "St. Jude", "St. John Berchmans"],
-    Grade8: ["St. Mary", "St. Elizabeth", "St. Anne", "St. Bernadeth", "St. Therese", "St. Martha"],
+    Grade8: ["St. Mary", "St. Elizabeth", "St. Anne", "St. Bernadette", "St. Therese", "St. Martha"],
     Grade9: ["St. Matthew", "St. Mark", "St. Luke", "St. John the Evangelist", "St. Thomas"],
     Grade10: ["St. Joseph", "St. John the Baptist", "St. Peter", "St. Paul"],
     Grade11: ["ABM - St. Theresa of Calcutta", "TVL - St. Bridgette", "HUMSS - St. Catherine of Siena", "STEM - St. Claire of Assisi", "STEM - St. Maria Goretti", "STEM - St. Rita of Cascia"],
@@ -64,7 +64,7 @@ const locationData = {
         image: "images/map-8anne.png",
         legends: "<img src='images/markers/location-pin.png' alt='Image 1'><p>Destination</p><img src='images/markers/user.png' alt='Image 2'><p>User Location</p>"
     },
-    "St. Bernadeth": {
+    "St. Bernadette": {
         image: "images/map-8bernadeth.png",
         legends: "<img src='images/markers/location-pin.png' alt='Image 1'><p>Destination</p><img src='images/markers/user.png' alt='Image 2'><p>User Location</p>"
     },
